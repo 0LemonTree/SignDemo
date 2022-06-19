@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SupplementaryDateViewController" customModule="SignIn" customModuleProvider="target">
+            <connections>
+                <outlet property="checkBtn" destination="BLD-7Y-7pk" id="dP7-dl-pOc"/>
+                <outlet property="datePicker" destination="Dib-WH-mYQ" id="az4-WM-rjQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="Dib-WH-mYQ">
+                    <rect key="frame" x="0.0" y="700" width="414" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="Blw-Uj-mtS"/>
+                    </constraints>
+                    <locale key="locale" localeIdentifier="zh-Hans"/>
+                    <connections>
+                        <action selector="pickerValueChanged:" destination="-1" eventType="valueChanged" id="dPA-vG-Enm"/>
+                    </connections>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpN-kH-qqy">
+                    <rect key="frame" x="334" y="88" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="I05-YD-9cu"/>
+                        <constraint firstAttribute="width" constant="80" id="jlR-js-VkA"/>
+                    </constraints>
+                    <buttonConfiguration key="configuration" style="plain" title="X"/>
+                    <connections>
+                        <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="VVp-cR-tZi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLD-7Y-7pk">
+                    <rect key="frame" x="173.5" y="432.5" width="67" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <connections>
+                        <action selector="checkAction:" destination="-1" eventType="touchUpInside" id="HqS-U1-HKi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="BLD-7Y-7pk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="0I3-dr-yUW"/>
+                <constraint firstItem="Dib-WH-mYQ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="1B1-2e-4tx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NpN-kH-qqy" secondAttribute="trailing" id="2Ai-g2-dgn"/>
+                <constraint firstItem="NpN-kH-qqy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="44" id="7kt-6Y-RrN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Dib-WH-mYQ" secondAttribute="bottom" id="8e8-2M-wce"/>
+                <constraint firstItem="BLD-7Y-7pk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Mbw-rb-lCc"/>
+                <constraint firstItem="Dib-WH-mYQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fwR-q2-FM3"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="80"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

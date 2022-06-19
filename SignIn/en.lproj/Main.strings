@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; configuration.title = "历史打卡记录"; ObjectID = "2ZH-Sc-JIL"; */
+"2ZH-Sc-JIL.configuration.title" = "历史打卡记录";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2ZH-Sc-JIL"; */
+"2ZH-Sc-JIL.normalTitle" = "历史打卡记录";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5OM-W4-6ex"; */
+"5OM-W4-6ex.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "今日打卡记录"; ObjectID = "KTk-1H-fDg"; */
+"KTk-1H-fDg.configuration.title" = "历史打卡记录";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KTk-1H-fDg"; */
+"KTk-1H-fDg.normalTitle" = "今日打卡记录";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rFU-do-CiJ"; */
+"rFU-do-CiJ.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "打卡"; ObjectID = "z1D-ET-AIJ"; */
+"z1D-ET-AIJ.configuration.title" = "打卡";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "z1D-ET-AIJ"; */
+"z1D-ET-AIJ.normalTitle" = "打卡";

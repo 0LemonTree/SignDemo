@@ -24,6 +24,7 @@
 		95BB221A285C6705009899B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BB2218285C6705009899B3 /* Main.storyboard */; };
 		95BB221C285C6707009899B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BB221B285C6707009899B3 /* Assets.xcassets */; };
 		95BB221F285C6707009899B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BB221D285C6707009899B3 /* LaunchScreen.storyboard */; };
+		95E68007285F3979001B2421 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E68006285F3979001B2421 /* EmptyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		95BB221B285C6707009899B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95BB221E285C6707009899B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95BB2220285C6707009899B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E68006285F3979001B2421 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		C18F07F495A7C875E14E040E /* Pods-SignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignIn.debug.xcconfig"; path = "Target Support Files/Pods-SignIn/Pods-SignIn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +119,7 @@
 		95B1044A285ECE950006CF3C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				95E68006285F3979001B2421 /* EmptyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				95BB2213285C6705009899B3 /* AppDelegate.swift in Sources */,
 				95B10446285C6C7B0006CF3C /* SignInModel.swift in Sources */,
 				95B10459285F17B20006CF3C /* HistoryViewController.swift in Sources */,
+				95E68007285F3979001B2421 /* EmptyView.swift in Sources */,
 				95B1045D285F20C60006CF3C /* SupplementaryDateViewController.swift in Sources */,
 				95BB2215285C6705009899B3 /* SceneDelegate.swift in Sources */,
 				95B10461285F25200006CF3C /* SupViewController.swift in Sources */,
